@@ -23,9 +23,9 @@ USE employee_db;
 
 SHOW tables;
 
-SELECT department.id, employee.first_name, employee.last_name, role.title, role.salary, employee.manager_id
-FROM employee
-JOIN role
-ON role.id = employee.role_id
-JOIN department
-On department.id = role.department_id;
+-- SELECT department.id, employee.first_name, employee.last_name, role.title, department.name, role.salary, employee.manager_id
+-- FROM employee
+-- JOIN role
+-- ON role.id = employee.role_id
+-- JOIN department
+-- On department.id = role.department_id;
