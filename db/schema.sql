@@ -26,7 +26,3 @@ CREATE TABLE employee (
     FOREIGN KEY (role_id)
     REFERENCES role(id)
 );
-
-USE employee_db;
-
-SHOW tables;
